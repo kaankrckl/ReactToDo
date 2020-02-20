@@ -1,0 +1,32 @@
+.list{
+    color: #fff;
+    width: 300px;
+    background-color: #5f07ac;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 0px;
+}
+.list p{
+    padding: 10px;
+    position: relative;
+
+}
+.list p span{
+    right: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+.faicons{
+    margin: 0 5px;
+    font-size: 15px;
+}
+.list p input{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+}
+.list input:focus{
+    outline: none;
+}
